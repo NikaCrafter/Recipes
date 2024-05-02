@@ -27,7 +27,7 @@ include "conn.php";
 <body class="bg-[#F3E5D8] flex items-center justify-center min-h-screen">
         <div class="bg-white p-6 flex flex-col justify-center items-center w-[30%] rounded my-8 ">
           <div>
-            <img src="picture.jpg" alt="" class="w-full h-auto object-cover rounded">
+            <img src="dummy-photo.jpg" alt="" class="w-full h-auto object-cover rounded">
             <div class="py-8">
             <h1 class="text-3xl pb-8 text-center">Simple Omlette Recipe</h1>
             <p class="text-[grey] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam possimus ea, a dolore laudantium eum fuga iste est tempore quo unde vero quod, aliquam quas repellat doloribus incidunt repellendus mollitia?</p>
