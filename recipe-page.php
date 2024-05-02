@@ -55,6 +55,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <div class="bg-white p-6 flex flex-col justify-center items-center w-[30%] rounded my-8">
