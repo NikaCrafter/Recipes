@@ -1,3 +1,6 @@
+<?php 
+include "conn.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,8 +9,8 @@
     <title>Recipes</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">    
     <style>
     .custom-bullet::before {
         content: "\2022"; 
