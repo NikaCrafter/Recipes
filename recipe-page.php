@@ -13,7 +13,8 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
         $recipeDescription = $recipe["description"];
         $preparationTime = $recipe["preparation_time"];
         $cookTime = $recipe["cook_time"];
-        $totalTime = $recipe["total_time"];
+        $totalTime = $recipe["preparation_time"] + $recipe["cook_time"];
+        $imgUrl = $recipe["image_url"];
     } else {
         echo "Recipe not found";
     }
@@ -75,7 +76,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
 <body>
     <div class="bg-white p-6 flex flex-col justify-center items-center w-[30%] rounded my-8">
         <div>
-            <img src="dummy-photo.jpg" alt="" class="w-full h-auto object-cover rounded">
+            <img src="<?php echo $imgUrl; ?>" alt="" class="w-full h-auto object-cover rounded">
             <div class="py-8">
                 <h1 class="text-3xl pb-8 text-center"><?php echo $recipeTitle; ?></h1>
                 <p class="text-[grey] text-center"><?php echo $recipeDescription; ?></p>
