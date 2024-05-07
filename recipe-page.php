@@ -73,7 +73,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     }
 </style>
 </head>
-<body>
+<body class="flex justify-center items-center h-screen bg-gray-100">
     <div class="bg-white p-6 flex flex-col justify-center items-center w-[30%] rounded my-8">
         <div>
             <img src="<?php echo $imgUrl; ?>" alt="" class="w-full h-auto object-cover rounded">
