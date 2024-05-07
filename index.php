@@ -42,17 +42,17 @@ $conn->close();
 </head>
 <body class="bg-gray-100">
     <div class="wrapper">
-        <nav class="bg-gray-800 text-white p-4">
-            <div class="flex items-center">
-                <img src="dummy-photo.jpg" class="w-10 h-10 rounded-full" alt="Logo">
-                <ul class="ml-4 flex space-x-4">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="add-recipe.php">Add Recipe</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+    <nav class="bg-gray-800 text-white p-4">
+    <div class="flex justify-between items-center">
+        <a href="index.php" class="text-2xl font-bold">LOGO</a>
+        <ul class="ml-4 flex space-x-4">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="add-recipe.php">Add Recipe</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
         <header class="text-center my-8">
             <h1 class="text-4xl font-bold">Welcome to Our Recipe Website</h1>
